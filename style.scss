@@ -12,6 +12,9 @@ fdd799
 f9cb8f
 */
 
+$header_color: #56aef6;
+$block_color: #c8ffff;
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -35,11 +38,14 @@ body {
 
 .header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+  margin-bottom: 30px;
   padding: 10px 5%;
 
-  background-color: #56aef6;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: $header_color;
 }
 
 .header_logo {
@@ -78,19 +84,52 @@ body {
 }
 
 .card {
+  display: flex;
+  width: 100%;
+  padding: 10px 5%;
+}
+
+.card_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  //background-color: $block_color;
 }
 
 .card_info {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .card_title {
+  margin: 20px 0;
+  font-size: 35px;
 }
 
 .card_list {
+  list-style-type: "☀️";
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.card_item {
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .card_foto {
+  width: 40%;
   img {
+    width: 100%;
+
+    border-radius: 5px;
   }
 }
 
