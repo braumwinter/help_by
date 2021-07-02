@@ -137,6 +137,7 @@ body {
 .card_item {
   font-size: 20px;
   padding-left: 10px;
+  margin: 10px 0;
 }
 
 .card_foto {
@@ -178,10 +179,12 @@ body {
   font-size: 20px;
   background-color: #56aef6;
   color: white;
+  text-align: justify;
 }
 
 .greeting_wrapper p {
   margin: 5px 0;
+  text-align: justify;
 }
 
 .assistance {
@@ -232,6 +235,7 @@ body {
 
 .assistance_item {
   padding-left: 10px;
+  margin: 10px 0;
 }
 
 .important {
@@ -285,6 +289,7 @@ body {
 
 .features_wrapper p {
   margin: 5px 0;
+  text-align: justify;
 }
 
 .worth {
@@ -397,5 +402,92 @@ body {
 
 .footer_logo a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1180px) {
+  .greeting_wrapper {
+    width: 70%;
+  }
+  .assistance_wrapper {
+    width: 70%;
+  }
+  .features_wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .card_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card_info {
+    width: 90%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .card_foto {
+    width: 50%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .greeting_wrapper {
+    width: 80%;
+  }
+  .assistance_wrapper {
+    width: 80%;
+  }
+  .features_wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .card_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card_info {
+    width: 90%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .card_foto {
+    width: 70%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .greeting_wrapper {
+    width: 90%;
+  }
+  .assistance_wrapper {
+    width: 90%;
+  }
+  .features_wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

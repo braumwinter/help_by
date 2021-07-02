@@ -68,8 +68,6 @@ body {
 
 .header_link {
   margin-left: 15px;
-  a {
-  }
 }
 
 .header_img {
@@ -122,6 +120,7 @@ body {
 .card_item {
   font-size: 20px;
   padding-left: 10px;
+  margin: 10px 0;
 }
 
 .card_foto {
@@ -152,8 +151,10 @@ body {
   font-size: 20px;
   background-color: $header_color;
   color: white;
+  text-align: justify;
   p {
     margin: 5px 0;
+    text-align: justify;
   }
 }
 
@@ -190,6 +191,7 @@ body {
 
 .assistance_item {
   padding-left: 10px;
+  margin: 10px 0;
 }
 
 .important {
@@ -225,6 +227,7 @@ body {
   color: white;
   p {
     margin: 5px 0;
+    text-align: justify;
   }
 }
 
@@ -310,5 +313,85 @@ body {
 
   a:hover {
     text-decoration: underline;
+  }
+}
+
+//@media (min-width: 525px) and (max-width: 570px)
+
+@media (max-width: 1180px) {
+  .greeting_wrapper {
+    width: 70%;
+  }
+
+  .assistance_wrapper {
+    width: 70%;
+  }
+
+  .features_wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .card_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_info {
+    width: 90%;
+    order: 2;
+  }
+
+  .card_foto {
+    width: 50%;
+    order: 1;
+  }
+
+  .greeting_wrapper {
+    width: 80%;
+  }
+
+  .assistance_wrapper {
+    width: 80%;
+  }
+
+  .features_wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .card_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_info {
+    width: 90%;
+    order: 2;
+  }
+
+  .card_foto {
+    width: 70%;
+    order: 1;
+  }
+
+  .greeting_wrapper {
+    width: 90%;
+  }
+
+  .assistance_wrapper {
+    width: 90%;
+  }
+
+  .features_wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
   }
 }
