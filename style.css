@@ -438,6 +438,9 @@ body {
         -ms-flex-order: 1;
             order: 1;
   }
+  .card_title {
+    text-align: center;
+  }
   .greeting_wrapper {
     width: 80%;
   }
