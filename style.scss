@@ -251,17 +251,64 @@ body {
 }
 
 .invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .invitation_foto {
+  width: 310px;
+  height: 310px;
   img {
+    width: 100%;
+    border-radius: 100%;
   }
 }
 
 .invitation_title {
+  font-size: 20px;
+  margin: 20px 0;
 }
 
 .qr_code {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
   img {
+    width: 310px;
+    border: 1px solid $header_color;
+    border-radius: 18px;
+  }
+}
+
+.footer {
+  display: flex;
+
+  margin-bottom: 30px;
+  padding: 20px 5%;
+
+  align-items: center;
+  justify-content: start;
+
+  background-color: $header_color;
+}
+
+.footer_title {
+  color: white;
+  font-size: 20px;
+}
+
+.footer_logo {
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
