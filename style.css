@@ -1,3 +1,16 @@
+/*
+56aef6
+1583da
+053367
+
+fefaf9
+fefbf6
+fffcf9
+
+feefc6
+fdd799
+f9cb8f
+*/
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,6 +28,52 @@ body {
   font-size: 10px;
   font-family: monospace;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #fefaf9;
   scroll-behavior: smooth;
 }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 5%;
+  background-color: #56aef6;
+}
+
+.header_logo a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.header_logo a:hover {
+  text-decoration: underline;
+}
+
+.header_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header_link {
+  margin-left: 15px;
+}
+
+.header_img {
+  width: 35px;
+  height: 35px;
+  /*&:first-child {
+    background: url(./img/instagram.ico) right bottom no-repeat;
+    padding: 0 12px 14px 0;
+  }*/
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,21 +1,138 @@
+/*
+56aef6
+1583da
+053367
+
+fefaf9
+fefbf6
+fffcf9
+
+feefc6
+fdd799
+f9cb8f
+*/
+
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: monospace;
+  color: #000000;
+  background-color: #fefaf9;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+
+  background-color: #56aef6;
+}
+
+.header_logo {
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
   }
-  
-  html,
-  body {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    font-family: monospace;
-    color: #000000;
-    background-color: #ffffff;
-    scroll-behavior: smooth;
+
+  a:hover {
+    text-decoration: underline;
   }
-  
+}
+
+.header_links {
+  display: flex;
+  list-style-type: none;
+}
+
+.header_link {
+  margin-left: 15px;
+  a {
+  }
+}
+
+.header_img {
+  width: 35px;
+  height: 35px;
+
+  //box-shadow: 1px 1px 1px 1px white;
+  /*&:first-child {
+    background: url(./img/instagram.ico) right bottom no-repeat;
+    padding: 0 12px 14px 0;
+  }*/
+}
+
+.card {
+}
+
+.card_info {
+}
+
+.card_title {
+}
+
+.card_list {
+}
+
+.card_foto {
+  img {
+  }
+}
+
+.greeting {
+}
+
+.assistance {
+}
+
+.assistance_title {
+}
+
+.assistance_list {
+}
+
+.assistance_item {
+}
+
+.important {
+}
+
+.features {
+}
+
+.worth {
+}
+
+.working {
+}
+
+.invitation {
+}
+
+.invitation_foto {
+  img {
+  }
+}
+
+.invitation_title {
+}
+
+.qr_code {
+  img {
+  }
+}
